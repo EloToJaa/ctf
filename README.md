@@ -121,6 +121,16 @@ A documentation repo created to group all available resources
 - [ExploitDB](https://www.exploit-db.com)
 - [OffsecTools](https://offsec.tools)
 - [RevShells](https://revshells.com)
+- [Regexr](https://regexr.com/)
+- [Crontab](https://crontab.guru/)
+- [GrepApp](https://grep.app/)
+- [UnixTimeStamp](https://www.unixtimestamp.com/)
+- [oeis](https://oeis.org/)
+- [JWT](https://jwt.io/)
+- [Transform](https://transform.tools/)
+- [TinEye](https://tineye.com/)
+- [PimEyes](https://pimeyes.com/en)
+- [TempMail](https://temp-mail.org/en/)
 
 ## More Resources
 
