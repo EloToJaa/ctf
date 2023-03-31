@@ -17,7 +17,7 @@ A documentation repo created to group all available resources
 - [W3Challs](https://w3challs.com/challenges)
 - [Ringzer0CTF](https://ringzer0ctf.com/challenges)
 - [Enigma Group](https://www.enigmagroup.org)
-- [Root Me](https://www.root-me.org)-
+- [Root Me](https://www.root-me.org)
 
 ## Pentesting
 
@@ -38,7 +38,7 @@ A documentation repo created to group all available resources
 - [HackingLab](https://www.hacking-lab.com/index.html)
 - [CyberSecLabs](https://www.cyberseclabs.co.uk)
 - [HackXOR](https://hackxor.net)
-- [Hacktoria](https://hacktoria.com)-
+- [Hacktoria](https://hacktoria.com)
 
 ## Pwn / RE
 
