@@ -7,17 +7,11 @@
 ## Wordpress scan
 
 ```sh
-wpscan --url https://$IP -e vp,u
+wpscan -e vp,u --url https://$IP
 ```
 
 ## Wordpress bruteforcing
 
 ```sh
-wpscan --url http://$IP/ --usernames $USER --passwords $WORDLIST --max-threads 300
-```
-
-## Windows Wordpress exploit
-
-```sh
-exploit/unix/webapp/wp_admin_shell_upload
+wpscan --max-threads 300 --usernames $USER --passwords $WORDLIST --url http://$IP/
 ```
