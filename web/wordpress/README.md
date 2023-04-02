@@ -7,7 +7,7 @@
 ## Wordpress scan
 
 ```sh
-wpscan -e vp,u --url https://$IP
+wpscan -e vp,u --url http://$IP
 ```
 
 ## Wordpress bruteforcing
