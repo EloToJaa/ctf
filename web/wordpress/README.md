@@ -4,14 +4,18 @@
 
 - [wpscan](https://github.com/wpscanteam/wpscan)
 
+## Note
+
+Correct order of cmd args is required!
+
 ## Wordpress scan
 
 ```sh
-wpscan -e vp,u --url http://$IP
+wpscan --url http://$IP --api-token $TOKEN  -e ap,t,u
 ```
 
 ## Wordpress bruteforcing
 
 ```sh
-wpscan --max-threads 300 --usernames $USER --passwords $WORDLIST --url http://$IP/
+wpscan --url http://$IP --usernames $USER --passwords $WORDLIST --max-threads 300
 ```
