@@ -8,11 +8,11 @@
 ## GoBuster
 
 ```sh
-gobuster dir --url http://$IP -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -t 300 -o gobuster.log --no-error
+gobuster dir -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt --no-error -t 300 -o gobuster.log --url http://$IP
 ```
 
 ## Port scan
 
 ```sh
-rustscan -a $IP -- -sC -sV -oN nmap.log
+nmap -sC -sV -oN nmap.log $IP
 ```
