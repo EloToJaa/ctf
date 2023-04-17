@@ -20,5 +20,5 @@ gobuster vhost -w /usr/share/seclists/Discovery/DNS/subdomains-top1million-5000.
 ## Port scan
 
 ```sh
-nmap -sC -sV -oN nmap.log $IP
+nmap -sC -sV -p- -oN nmap.log $IP
 ```
