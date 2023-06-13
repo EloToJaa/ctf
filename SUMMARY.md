@@ -2,7 +2,7 @@
 
 * [CTF book](README.md)
 * [Mobile exploitation](mobile/README.md)
-* [exploitation](exploitation/README.md)
+* [Exploitation](exploitation/README.md)
   * [Enumeration](exploitation/enumeration/README.md)
   * [Password cracking](exploitation/password/README.md)
   * [Port Forwarding](exploitation/port-forwarding/README.md)
